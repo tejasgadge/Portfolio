@@ -3,20 +3,28 @@ body{
     padding: 0px;
 }
 section{
-    margin: 5% 10%;
+    margin: 0px 10%;
+    padding: 20px;
     line-height: 1.5rem;
     word-spacing: .3rem;
     font-weight: 500;
 }
+main{
+    margin-bottom: 15px;
+}
 section:nth-child(2n+1){
     background-color: rgb(222, 254, 254);
+    text-align: end;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 section:nth-child(2n){
     background-color: rgb(255, 234, 197);
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 .flex{
     display: flex;
-    justify-content: space-between;
 }
 .flex-row
 {
@@ -30,6 +38,9 @@ section:nth-child(2n){
 }
 .spacebetween{
     justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
 }
 .wrap{
     flex-wrap: wrap;
@@ -76,7 +87,6 @@ section:nth-child(2n){
     background-image: url(linkedin.png);
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed; */
 
 }
 #social-icons{
@@ -184,4 +194,39 @@ section:nth-child(2n){
     top: -.3rem;
     height: inherit;
     width: inherit;
+}
+.education-image{
+    height: 50px;
+}
+.edu{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.edudesciption{
+    text-align: start;
+}
+.edu-logo{
+    height: 50px;
+    width: 50px;
+}
+.edubackground{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects>div{
+    margin: 15px;
+    padding: 10px;
+    background-color:rgb(253, 238, 215);
+    border-radius: 10px;
+}
+.project-link{
+    text-decoration: none;
+    color: black;
 }
