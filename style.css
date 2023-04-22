@@ -219,6 +219,7 @@ section:nth-child(2n){
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .projects>div{
     margin: 15px;
